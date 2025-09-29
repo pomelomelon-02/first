@@ -1,0 +1,9 @@
+body{
+    background-color: beige;
+}
+h1{
+    background-color: rgb(157, 103, 31);
+    font-family: "標楷體";
+    padding: 10px;
+    color: rgb(231, 205, 170);
+}
