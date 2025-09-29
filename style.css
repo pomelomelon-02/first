@@ -1,9 +1,45 @@
 body{
+    font-family: "標楷體";
     background-color: beige;
 }
-h1{
-    background-color: rgb(157, 103, 31);
-    font-family: "標楷體";
-    padding: 10px;
-    color: rgb(231, 205, 170);
+
+.signature {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+    text-align: left;
 }
+
+.navbar {
+    background-color: khaki;
+    padding: 10px 0;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    margin: 0 30px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #333;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    text-align: center;
+    margin-top: 50px;
+}
+
